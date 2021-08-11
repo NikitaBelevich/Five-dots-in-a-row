@@ -1,4 +1,27 @@
+@import url('../css/my_normalize.css');
+
 body {
-    background-color: #a7a7a7;
+    background-color: #bbbbbb;
 }
 
+.header {
+    &__game-title {
+        margin: 0 auto;
+        margin-top: 10vh;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.game-field {
+    &__table {
+        margin: 0 auto;
+        margin-top: 5vh;
+        td {
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            border: 1px solid #000;
+        }
+    }
+}
